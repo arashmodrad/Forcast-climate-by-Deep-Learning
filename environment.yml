@@ -1,0 +1,58 @@
+name: Arash-project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - numpy
+  - matplotlib
+  - pandas
+  - xlrd
+  - scipy
+  - tqdm
+  - plotly
+  - optuna
+  - scikit-learn
+  - seaborn
+  - opencv
+  - nodejs
+  - progressbar2
+  - h5py
+  - IPython
+  # - sympy
+  # - dask
+  # - altair
+  # - dvc
+  # - click
+  # - mamba
+  - statsmodels
+  - ipywidgets
+  - cudatoolkit=10.1
+  - cudnn
+  - pip:
+    - tensorflow==2.3.0
+    - tensorboard
+    - tensorflow-estimator
+    - tensorflow-metadata
+    - tensorflow-addons
+    - keras=2.4.3
+    - tensorflow-gpu=2.3.0
+    #- pyscaffoldext-dsproject
+    # - mritopng
+    # - jupyter-book
+  # for development only (could also be kept in a separate environment file)
+  #- pyscaffold
+  #- pycodestyle
+  #- pydocstyle
+  #- jupyterlab
+  # - pytest
+  # - pytest-cov
+  # - tox
+  # - pre_commit
+  # - sphinx
+  # - nbdime
+  # - nbstripout
+  # - recommonmark
+  # course specific
+  # - cudatoolkit=10.0
