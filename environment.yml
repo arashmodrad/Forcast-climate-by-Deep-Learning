@@ -36,8 +36,8 @@ dependencies:
     - tensorflow-estimator
     - tensorflow-metadata
     - tensorflow-addons
-    - keras=2.4.3
-    - tensorflow-gpu=2.3.0
+    - keras==2.4.3
+    - tensorflow-gpu==2.3.0
     #- pyscaffoldext-dsproject
     # - mritopng
     # - jupyter-book
