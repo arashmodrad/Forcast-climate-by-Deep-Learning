@@ -1,0 +1,625 @@
+Inputs shape (batch, time, features): (32, 6, 23)
+Labels shape (batch, time, features): (32, 1, 1)
+Inputs shape (batch, time, features): (32, 1, 23)
+Labels shape (batch, time, features): (32, 1, 1)
+Epoch 1/40
+
+Epoch 00001: val_coeff_determination improved from -inf to 0.74753, saving model to Linear_weights_best.hdf5
+23454/23454 - 200s - loss: 0.2846 - coeff_determination: 0.7154 - val_loss: 0.2998 - val_coeff_determination: 0.7475
+Epoch 2/40
+
+Epoch 00002: val_coeff_determination improved from 0.74753 to 0.74774, saving model to Linear_weights_best.hdf5
+23454/23454 - 203s - loss: 0.2734 - coeff_determination: 0.7267 - val_loss: 0.2995 - val_coeff_determination: 0.7477
+Epoch 3/40
+
+Epoch 00003: val_coeff_determination improved from 0.74774 to 0.74777, saving model to Linear_weights_best.hdf5
+23454/23454 - 197s - loss: 0.2733 - coeff_determination: 0.7268 - val_loss: 0.2995 - val_coeff_determination: 0.7478
+Epoch 4/40
+
+Epoch 00004: val_coeff_determination improved from 0.74777 to 0.74789, saving model to Linear_weights_best.hdf5
+23454/23454 - 189s - loss: 0.2732 - coeff_determination: 0.7269 - val_loss: 0.2994 - val_coeff_determination: 0.7479
+Epoch 5/40
+
+Epoch 00005: val_coeff_determination did not improve from 0.74789
+23454/23454 - 188s - loss: 0.2732 - coeff_determination: 0.7269 - val_loss: 0.2995 - val_coeff_determination: 0.7478
+Epoch 6/40
+
+Epoch 00006: val_coeff_determination improved from 0.74789 to 0.74795, saving model to Linear_weights_best.hdf5
+23454/23454 - 189s - loss: 0.2732 - coeff_determination: 0.7269 - val_loss: 0.2993 - val_coeff_determination: 0.7479
+Epoch 7/40
+
+Epoch 00007: val_coeff_determination did not improve from 0.74795
+23454/23454 - 186s - loss: 0.2732 - coeff_determination: 0.7269 - val_loss: 0.2995 - val_coeff_determination: 0.7478
+Epoch 8/40
+
+Epoch 00008: val_coeff_determination improved from 0.74795 to 0.74809, saving model to Linear_weights_best.hdf5
+23454/23454 - 180s - loss: 0.2732 - coeff_determination: 0.7269 - val_loss: 0.2992 - val_coeff_determination: 0.7481
+Epoch 9/40
+
+Epoch 00009: val_coeff_determination did not improve from 0.74809
+23454/23454 - 180s - loss: 0.2732 - coeff_determination: 0.7270 - val_loss: 0.2994 - val_coeff_determination: 0.7479
+Epoch 10/40
+
+Epoch 00010: val_coeff_determination did not improve from 0.74809
+23454/23454 - 180s - loss: 0.2731 - coeff_determination: 0.7269 - val_loss: 0.2993 - val_coeff_determination: 0.7479
+Epoch 11/40
+
+Epoch 00011: val_coeff_determination did not improve from 0.74809
+23454/23454 - 180s - loss: 0.2731 - coeff_determination: 0.7270 - val_loss: 0.2993 - val_coeff_determination: 0.7480
+Epoch 12/40
+
+Epoch 00012: val_coeff_determination did not improve from 0.74809
+23454/23454 - 180s - loss: 0.2731 - coeff_determination: 0.7270 - val_loss: 0.2993 - val_coeff_determination: 0.7479
+Epoch 13/40
+
+Epoch 00013: val_coeff_determination did not improve from 0.74809
+23454/23454 - 179s - loss: 0.2731 - coeff_determination: 0.7270 - val_loss: 0.2993 - val_coeff_determination: 0.7479
+Epoch 14/40
+
+Epoch 00014: val_coeff_determination did not improve from 0.74809
+23454/23454 - 180s - loss: 0.2731 - coeff_determination: 0.7270 - val_loss: 0.2992 - val_coeff_determination: 0.7481
+Epoch 15/40
+
+Epoch 00015: val_coeff_determination did not improve from 0.74809
+23454/23454 - 180s - loss: 0.2731 - coeff_determination: 0.7270 - val_loss: 0.2992 - val_coeff_determination: 0.7481
+Epoch 16/40
+
+Epoch 00016: val_coeff_determination did not improve from 0.74809
+23454/23454 - 188s - loss: 0.2731 - coeff_determination: 0.7270 - val_loss: 0.2992 - val_coeff_determination: 0.7481
+Epoch 17/40
+
+Epoch 00017: val_coeff_determination did not improve from 0.74809
+23454/23454 - 193s - loss: 0.2730 - coeff_determination: 0.7271 - val_loss: 0.2992 - val_coeff_determination: 0.7480
+Epoch 18/40
+
+Epoch 00018: val_coeff_determination did not improve from 0.74809
+23454/23454 - 188s - loss: 0.2730 - coeff_determination: 0.7271 - val_loss: 0.2993 - val_coeff_determination: 0.7480
+Epoch 19/40
+
+Epoch 00019: val_coeff_determination did not improve from 0.74809
+23454/23454 - 188s - loss: 0.2730 - coeff_determination: 0.7270 - val_loss: 0.2992 - val_coeff_determination: 0.7480
+Epoch 20/40
+
+Epoch 00020: val_coeff_determination did not improve from 0.74809
+23454/23454 - 189s - loss: 0.2730 - coeff_determination: 0.7271 - val_loss: 0.2992 - val_coeff_determination: 0.7480
+Epoch 21/40
+
+Epoch 00021: val_coeff_determination did not improve from 0.74809
+23454/23454 - 194s - loss: 0.2730 - coeff_determination: 0.7271 - val_loss: 0.2992 - val_coeff_determination: 0.7480
+Epoch 22/40
+
+Epoch 00022: val_coeff_determination improved from 0.74809 to 0.74810, saving model to Linear_weights_best.hdf5
+23454/23454 - 198s - loss: 0.2730 - coeff_determination: 0.7271 - val_loss: 0.2991 - val_coeff_determination: 0.7481
+Epoch 23/40
+
+Epoch 00023: val_coeff_determination did not improve from 0.74810
+23454/23454 - 189s - loss: 0.2730 - coeff_determination: 0.7271 - val_loss: 0.2991 - val_coeff_determination: 0.7480
+Epoch 24/40
+
+Epoch 00024: val_coeff_determination did not improve from 0.74810
+23454/23454 - 203s - loss: 0.2730 - coeff_determination: 0.7271 - val_loss: 0.2991 - val_coeff_determination: 0.7481
+Epoch 25/40
+
+Epoch 00025: val_coeff_determination did not improve from 0.74810
+23454/23454 - 200s - loss: 0.2729 - coeff_determination: 0.7271 - val_loss: 0.2993 - val_coeff_determination: 0.7480
+Epoch 26/40
+
+Epoch 00026: val_coeff_determination did not improve from 0.74810
+23454/23454 - 200s - loss: 0.2729 - coeff_determination: 0.7272 - val_loss: 0.2991 - val_coeff_determination: 0.7481
+Epoch 27/40
+
+Epoch 00027: val_coeff_determination did not improve from 0.74810
+23454/23454 - 202s - loss: 0.2729 - coeff_determination: 0.7271 - val_loss: 0.2992 - val_coeff_determination: 0.7480
+Epoch 28/40
+
+Epoch 00028: val_coeff_determination improved from 0.74810 to 0.74819, saving model to Linear_weights_best.hdf5
+23454/23454 - 189s - loss: 0.2729 - coeff_determination: 0.7271 - val_loss: 0.2991 - val_coeff_determination: 0.7482
+Epoch 29/40
+
+Epoch 00029: val_coeff_determination did not improve from 0.74819
+23454/23454 - 189s - loss: 0.2729 - coeff_determination: 0.7272 - val_loss: 0.2991 - val_coeff_determination: 0.7482
+Epoch 30/40
+
+Epoch 00030: val_coeff_determination did not improve from 0.74819
+23454/23454 - 191s - loss: 0.2729 - coeff_determination: 0.7272 - val_loss: 0.2991 - val_coeff_determination: 0.7481
+Epoch 31/40
+
+Epoch 00031: val_coeff_determination did not improve from 0.74819
+23454/23454 - 192s - loss: 0.2729 - coeff_determination: 0.7272 - val_loss: 0.2991 - val_coeff_determination: 0.7481
+Epoch 32/40
+
+Epoch 00032: val_coeff_determination did not improve from 0.74819
+23454/23454 - 188s - loss: 0.2729 - coeff_determination: 0.7272 - val_loss: 0.2990 - val_coeff_determination: 0.7481
+Epoch 33/40
+
+Epoch 00033: val_coeff_determination improved from 0.74819 to 0.74822, saving model to Linear_weights_best.hdf5
+23454/23454 - 183s - loss: 0.2729 - coeff_determination: 0.7272 - val_loss: 0.2990 - val_coeff_determination: 0.7482
+Epoch 34/40
+
+Epoch 00034: val_coeff_determination did not improve from 0.74822
+23454/23454 - 183s - loss: 0.2729 - coeff_determination: 0.7272 - val_loss: 0.2991 - val_coeff_determination: 0.7481
+Epoch 35/40
+
+Epoch 00035: val_coeff_determination did not improve from 0.74822
+23454/23454 - 181s - loss: 0.2729 - coeff_determination: 0.7272 - val_loss: 0.2992 - val_coeff_determination: 0.7480
+Epoch 36/40
+
+Epoch 00036: val_coeff_determination did not improve from 0.74822
+23454/23454 - 181s - loss: 0.2728 - coeff_determination: 0.7272 - val_loss: 0.2990 - val_coeff_determination: 0.7481
+Epoch 37/40
+
+Epoch 00037: val_coeff_determination did not improve from 0.74822
+23454/23454 - 181s - loss: 0.2728 - coeff_determination: 0.7273 - val_loss: 0.2990 - val_coeff_determination: 0.7482
+Epoch 38/40
+
+Epoch 00038: val_coeff_determination did not improve from 0.74822
+23454/23454 - 181s - loss: 0.2728 - coeff_determination: 0.7272 - val_loss: 0.2990 - val_coeff_determination: 0.7481
+Epoch 39/40
+
+Epoch 00039: val_coeff_determination did not improve from 0.74822
+23454/23454 - 180s - loss: 0.2728 - coeff_determination: 0.7273 - val_loss: 0.2990 - val_coeff_determination: 0.7482
+Epoch 40/40
+
+Epoch 00040: val_coeff_determination improved from 0.74822 to 0.74826, saving model to Linear_weights_best.hdf5
+23454/23454 - 181s - loss: 0.2728 - coeff_determination: 0.7273 - val_loss: 0.2989 - val_coeff_determination: 0.7483
+[2K
+[2K
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lambda (Lambda)              (None, 1, 23)             0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 1, 3312)           79488     
+_________________________________________________________________
+reshape (Reshape)            (None, 144, 23)           0         
+=================================================================
+Total params: 79,488
+Trainable params: 79,488
+Non-trainable params: 0
+_________________________________________________________________
+None
+Epoch 1/40
+
+Epoch 00001: val_coeff_determination improved from -inf to 0.79485, saving model to Dense1_weights_best.hdf5
+23454/23454 - 202s - loss: 0.2249 - coeff_determination: 0.7755 - val_loss: 0.2436 - val_coeff_determination: 0.7949
+Epoch 2/40
+
+Epoch 00002: val_coeff_determination did not improve from 0.79485
+23454/23454 - 210s - loss: 0.2152 - coeff_determination: 0.7852 - val_loss: 0.2517 - val_coeff_determination: 0.7879
+Epoch 3/40
+
+Epoch 00003: val_coeff_determination did not improve from 0.79485
+23454/23454 - 214s - loss: 0.2128 - coeff_determination: 0.7876 - val_loss: 0.2583 - val_coeff_determination: 0.7823
+Epoch 4/40
+
+Epoch 00004: val_coeff_determination did not improve from 0.79485
+23454/23454 - 207s - loss: 0.2115 - coeff_determination: 0.7888 - val_loss: 0.2657 - val_coeff_determination: 0.7760
+Epoch 5/40
+
+Epoch 00005: val_coeff_determination did not improve from 0.79485
+23454/23454 - 206s - loss: 0.2105 - coeff_determination: 0.7899 - val_loss: 0.2771 - val_coeff_determination: 0.7665
+Epoch 6/40
+
+Epoch 00006: val_coeff_determination did not improve from 0.79485
+23454/23454 - 207s - loss: 0.2098 - coeff_determination: 0.7905 - val_loss: 0.2878 - val_coeff_determination: 0.7574
+Epoch 7/40
+
+Epoch 00007: val_coeff_determination did not improve from 0.79485
+23454/23454 - 213s - loss: 0.2094 - coeff_determination: 0.7910 - val_loss: 0.2986 - val_coeff_determination: 0.7483
+Epoch 8/40
+
+Epoch 00008: val_coeff_determination did not improve from 0.79485
+23454/23454 - 215s - loss: 0.2089 - coeff_determination: 0.7915 - val_loss: 0.3083 - val_coeff_determination: 0.7402
+Epoch 9/40
+
+Epoch 00009: val_coeff_determination did not improve from 0.79485
+23454/23454 - 211s - loss: 0.2085 - coeff_determination: 0.7918 - val_loss: 0.3178 - val_coeff_determination: 0.7322
+Epoch 10/40
+
+Epoch 00010: val_coeff_determination did not improve from 0.79485
+23454/23454 - 213s - loss: 0.2082 - coeff_determination: 0.7921 - val_loss: 0.3288 - val_coeff_determination: 0.7229
+Epoch 11/40
+
+Epoch 00011: val_coeff_determination did not improve from 0.79485
+23454/23454 - 216s - loss: 0.2080 - coeff_determination: 0.7924 - val_loss: 0.3384 - val_coeff_determination: 0.7149
+Epoch 12/40
+
+Epoch 00012: val_coeff_determination did not improve from 0.79485
+23454/23454 - 222s - loss: 0.2077 - coeff_determination: 0.7927 - val_loss: 0.3531 - val_coeff_determination: 0.7024
+Epoch 13/40
+
+Epoch 00013: val_coeff_determination did not improve from 0.79485
+23454/23454 - 225s - loss: 0.2075 - coeff_determination: 0.7929 - val_loss: 0.3624 - val_coeff_determination: 0.6945
+Epoch 14/40
+
+Epoch 00014: val_coeff_determination did not improve from 0.79485
+23454/23454 - 216s - loss: 0.2073 - coeff_determination: 0.7930 - val_loss: 0.3710 - val_coeff_determination: 0.6873
+Epoch 15/40
+
+Epoch 00015: val_coeff_determination did not improve from 0.79485
+23454/23454 - 207s - loss: 0.2071 - coeff_determination: 0.7932 - val_loss: 0.3841 - val_coeff_determination: 0.6764
+Epoch 16/40
+
+Epoch 00016: val_coeff_determination did not improve from 0.79485
+23454/23454 - 209s - loss: 0.2069 - coeff_determination: 0.7935 - val_loss: 0.3982 - val_coeff_determination: 0.6646
+Epoch 17/40
+
+Epoch 00017: val_coeff_determination did not improve from 0.79485
+23454/23454 - 210s - loss: 0.2068 - coeff_determination: 0.7936 - val_loss: 0.4200 - val_coeff_determination: 0.6461
+Epoch 18/40
+
+Epoch 00018: val_coeff_determination did not improve from 0.79485
+23454/23454 - 210s - loss: 0.2066 - coeff_determination: 0.7938 - val_loss: 0.4234 - val_coeff_determination: 0.6433
+Epoch 19/40
+
+Epoch 00019: val_coeff_determination did not improve from 0.79485
+23454/23454 - 205s - loss: 0.2064 - coeff_determination: 0.7939 - val_loss: 0.4315 - val_coeff_determination: 0.6364
+Epoch 20/40
+
+Epoch 00020: val_coeff_determination did not improve from 0.79485
+23454/23454 - 201s - loss: 0.2063 - coeff_determination: 0.7941 - val_loss: 0.4472 - val_coeff_determination: 0.6231
+Epoch 21/40
+
+Epoch 00021: val_coeff_determination did not improve from 0.79485
+23454/23454 - 200s - loss: 0.2061 - coeff_determination: 0.7942 - val_loss: 0.4532 - val_coeff_determination: 0.6183
+Epoch 22/40
+
+Epoch 00022: val_coeff_determination did not improve from 0.79485
+23454/23454 - 201s - loss: 0.2060 - coeff_determination: 0.7943 - val_loss: 0.4585 - val_coeff_determination: 0.6136
+Epoch 23/40
+
+Epoch 00023: val_coeff_determination did not improve from 0.79485
+23454/23454 - 201s - loss: 0.2059 - coeff_determination: 0.7945 - val_loss: 0.4572 - val_coeff_determination: 0.6148
+Epoch 24/40
+
+Epoch 00024: val_coeff_determination did not improve from 0.79485
+23454/23454 - 201s - loss: 0.2058 - coeff_determination: 0.7946 - val_loss: 0.4842 - val_coeff_determination: 0.5920
+Epoch 25/40
+
+Epoch 00025: val_coeff_determination did not improve from 0.79485
+23454/23454 - 200s - loss: 0.2056 - coeff_determination: 0.7947 - val_loss: 0.4945 - val_coeff_determination: 0.5833
+Epoch 26/40
+
+Epoch 00026: val_coeff_determination did not improve from 0.79485
+23454/23454 - 203s - loss: 0.2055 - coeff_determination: 0.7949 - val_loss: 0.4911 - val_coeff_determination: 0.5864
+Epoch 27/40
+
+Epoch 00027: val_coeff_determination did not improve from 0.79485
+23454/23454 - 214s - loss: 0.2054 - coeff_determination: 0.7949 - val_loss: 0.5192 - val_coeff_determination: 0.5625
+Epoch 28/40
+
+Epoch 00028: val_coeff_determination did not improve from 0.79485
+23454/23454 - 220s - loss: 0.2053 - coeff_determination: 0.7951 - val_loss: 0.5205 - val_coeff_determination: 0.5616
+Epoch 29/40
+
+Epoch 00029: val_coeff_determination did not improve from 0.79485
+23454/23454 - 220s - loss: 0.2052 - coeff_determination: 0.7951 - val_loss: 0.5192 - val_coeff_determination: 0.5626
+Epoch 30/40
+
+Epoch 00030: val_coeff_determination did not improve from 0.79485
+23454/23454 - 217s - loss: 0.2051 - coeff_determination: 0.7953 - val_loss: 0.5263 - val_coeff_determination: 0.5566
+Epoch 31/40
+
+Epoch 00031: val_coeff_determination did not improve from 0.79485
+23454/23454 - 218s - loss: 0.2051 - coeff_determination: 0.7953 - val_loss: 0.5431 - val_coeff_determination: 0.5426
+Epoch 32/40
+
+Epoch 00032: val_coeff_determination did not improve from 0.79485
+23454/23454 - 217s - loss: 0.2049 - coeff_determination: 0.7955 - val_loss: 0.5320 - val_coeff_determination: 0.5520
+Epoch 33/40
+
+Epoch 00033: val_coeff_determination did not improve from 0.79485
+23454/23454 - 223s - loss: 0.2048 - coeff_determination: 0.7955 - val_loss: 0.5427 - val_coeff_determination: 0.5429
+Epoch 34/40
+
+Epoch 00034: val_coeff_determination did not improve from 0.79485
+23454/23454 - 212s - loss: 0.2048 - coeff_determination: 0.7956 - val_loss: 0.5404 - val_coeff_determination: 0.5450
+Epoch 35/40
+
+Epoch 00035: val_coeff_determination did not improve from 0.79485
+23454/23454 - 218s - loss: 0.2047 - coeff_determination: 0.7957 - val_loss: 0.5419 - val_coeff_determination: 0.5437
+Epoch 36/40
+
+Epoch 00036: val_coeff_determination did not improve from 0.79485
+23454/23454 - 222s - loss: 0.2046 - coeff_determination: 0.7957 - val_loss: 0.5501 - val_coeff_determination: 0.5367
+Epoch 37/40
+
+Epoch 00037: val_coeff_determination did not improve from 0.79485
+23454/23454 - 224s - loss: 0.2046 - coeff_determination: 0.7958 - val_loss: 0.5420 - val_coeff_determination: 0.5435
+Epoch 38/40
+
+Epoch 00038: val_coeff_determination did not improve from 0.79485
+23454/23454 - 223s - loss: 0.2045 - coeff_determination: 0.7959 - val_loss: 0.5565 - val_coeff_determination: 0.5313
+Epoch 39/40
+
+Epoch 00039: val_coeff_determination did not improve from 0.79485
+23454/23454 - 213s - loss: 0.2044 - coeff_determination: 0.7959 - val_loss: 0.5402 - val_coeff_determination: 0.5450
+Epoch 40/40
+
+Epoch 00040: val_coeff_determination did not improve from 0.79485
+23454/23454 - 210s - loss: 0.2044 - coeff_determination: 0.7960 - val_loss: 0.5629 - val_coeff_determination: 0.5261
+[2K
+[2K
+Model: "sequential_2"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lambda_1 (Lambda)            (None, 1, 23)             0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 1, 512)            12288     
+_________________________________________________________________
+dense_3 (Dense)              (None, 1, 3312)           1699056   
+_________________________________________________________________
+reshape_1 (Reshape)          (None, 144, 23)           0         
+=================================================================
+Total params: 1,711,344
+Trainable params: 1,711,344
+Non-trainable params: 0
+_________________________________________________________________
+None
+Epoch 1/40
+
+Epoch 00001: val_coeff_determination improved from -inf to 0.73678, saving model to Dense2_weights_best.hdf5
+23454/23454 - 222s - loss: 0.2173 - coeff_determination: 0.7830 - val_loss: 0.3122 - val_coeff_determination: 0.7368
+Epoch 2/40
+
+Epoch 00002: val_coeff_determination did not improve from 0.73678
+23454/23454 - 220s - loss: 0.2019 - coeff_determination: 0.7985 - val_loss: 0.4068 - val_coeff_determination: 0.6569
+Epoch 3/40
+
+Epoch 00003: val_coeff_determination did not improve from 0.73678
+23454/23454 - 214s - loss: 0.1928 - coeff_determination: 0.8077 - val_loss: 0.4497 - val_coeff_determination: 0.6205
+Epoch 4/40
+
+Epoch 00004: val_coeff_determination did not improve from 0.73678
+23454/23454 - 213s - loss: 0.1857 - coeff_determination: 0.8149 - val_loss: 0.4707 - val_coeff_determination: 0.6027
+Epoch 5/40
+
+Epoch 00005: val_coeff_determination did not improve from 0.73678
+23454/23454 - 215s - loss: 0.1800 - coeff_determination: 0.8205 - val_loss: 0.5149 - val_coeff_determination: 0.5651
+Epoch 6/40
+
+Epoch 00006: val_coeff_determination did not improve from 0.73678
+23454/23454 - 214s - loss: 0.1755 - coeff_determination: 0.8251 - val_loss: 0.5392 - val_coeff_determination: 0.5447
+Epoch 7/40
+
+Epoch 00007: val_coeff_determination did not improve from 0.73678
+23454/23454 - 217s - loss: 0.1717 - coeff_determination: 0.8289 - val_loss: 0.5538 - val_coeff_determination: 0.5324
+Epoch 8/40
+
+Epoch 00008: val_coeff_determination did not improve from 0.73678
+23454/23454 - 216s - loss: 0.1685 - coeff_determination: 0.8322 - val_loss: 0.5856 - val_coeff_determination: 0.5055
+Epoch 9/40
+
+Epoch 00009: val_coeff_determination did not improve from 0.73678
+23454/23454 - 214s - loss: 0.1657 - coeff_determination: 0.8350 - val_loss: 0.5784 - val_coeff_determination: 0.5117
+Epoch 10/40
+
+Epoch 00010: val_coeff_determination did not improve from 0.73678
+23454/23454 - 218s - loss: 0.1633 - coeff_determination: 0.8374 - val_loss: 0.5850 - val_coeff_determination: 0.5061
+Epoch 11/40
+
+Epoch 00011: val_coeff_determination did not improve from 0.73678
+23454/23454 - 228s - loss: 0.1613 - coeff_determination: 0.8394 - val_loss: 0.6051 - val_coeff_determination: 0.4891
+Epoch 12/40
+
+Epoch 00012: val_coeff_determination did not improve from 0.73678
+23454/23454 - 218s - loss: 0.1594 - coeff_determination: 0.8413 - val_loss: 0.5911 - val_coeff_determination: 0.5010
+Epoch 13/40
+
+Epoch 00013: val_coeff_determination did not improve from 0.73678
+23454/23454 - 219s - loss: 0.1578 - coeff_determination: 0.8429 - val_loss: 0.6107 - val_coeff_determination: 0.4843
+Epoch 14/40
+
+Epoch 00014: val_coeff_determination did not improve from 0.73678
+23454/23454 - 225s - loss: 0.1563 - coeff_determination: 0.8444 - val_loss: 0.6135 - val_coeff_determination: 0.4822
+Epoch 15/40
+
+Epoch 00015: val_coeff_determination did not improve from 0.73678
+23454/23454 - 220s - loss: 0.1550 - coeff_determination: 0.8457 - val_loss: 0.6175 - val_coeff_determination: 0.4785
+Epoch 16/40
+
+Epoch 00016: val_coeff_determination did not improve from 0.73678
+23454/23454 - 229s - loss: 0.1538 - coeff_determination: 0.8469 - val_loss: 0.6126 - val_coeff_determination: 0.4826
+Epoch 17/40
+
+Epoch 00017: val_coeff_determination did not improve from 0.73678
+23454/23454 - 224s - loss: 0.1527 - coeff_determination: 0.8480 - val_loss: 0.6233 - val_coeff_determination: 0.4735
+Epoch 18/40
+
+Epoch 00018: val_coeff_determination did not improve from 0.73678
+23454/23454 - 228s - loss: 0.1517 - coeff_determination: 0.8491 - val_loss: 0.6509 - val_coeff_determination: 0.4505
+Epoch 19/40
+
+Epoch 00019: val_coeff_determination did not improve from 0.73678
+23454/23454 - 235s - loss: 0.1507 - coeff_determination: 0.8500 - val_loss: 0.6470 - val_coeff_determination: 0.4538
+Epoch 20/40
+
+Epoch 00020: val_coeff_determination did not improve from 0.73678
+23454/23454 - 234s - loss: 0.1499 - coeff_determination: 0.8509 - val_loss: 0.6544 - val_coeff_determination: 0.4475
+Epoch 21/40
+
+Epoch 00021: val_coeff_determination did not improve from 0.73678
+23454/23454 - 222s - loss: 0.1491 - coeff_determination: 0.8517 - val_loss: 0.6745 - val_coeff_determination: 0.4304
+Epoch 22/40
+
+Epoch 00022: val_coeff_determination did not improve from 0.73678
+23454/23454 - 219s - loss: 0.1483 - coeff_determination: 0.8524 - val_loss: 0.6742 - val_coeff_determination: 0.4308
+Epoch 23/40
+
+Epoch 00023: val_coeff_determination did not improve from 0.73678
+23454/23454 - 222s - loss: 0.1476 - coeff_determination: 0.8532 - val_loss: 0.6807 - val_coeff_determination: 0.4251
+Epoch 24/40
+
+Epoch 00024: val_coeff_determination did not improve from 0.73678
+23454/23454 - 224s - loss: 0.1469 - coeff_determination: 0.8538 - val_loss: 0.6659 - val_coeff_determination: 0.4377
+Epoch 25/40
+
+Epoch 00025: val_coeff_determination did not improve from 0.73678
+23454/23454 - 216s - loss: 0.1463 - coeff_determination: 0.8545 - val_loss: 0.6578 - val_coeff_determination: 0.4445
+Epoch 26/40
+
+Epoch 00026: val_coeff_determination did not improve from 0.73678
+23454/23454 - 215s - loss: 0.1457 - coeff_determination: 0.8551 - val_loss: 0.6799 - val_coeff_determination: 0.4260
+Epoch 27/40
+
+Epoch 00027: val_coeff_determination did not improve from 0.73678
+23454/23454 - 214s - loss: 0.1452 - coeff_determination: 0.8556 - val_loss: 0.6809 - val_coeff_determination: 0.4250
+Epoch 28/40
+
+Epoch 00028: val_coeff_determination did not improve from 0.73678
+23454/23454 - 213s - loss: 0.1446 - coeff_determination: 0.8561 - val_loss: 0.6639 - val_coeff_determination: 0.4392
+Epoch 29/40
+
+Epoch 00029: val_coeff_determination did not improve from 0.73678
+23454/23454 - 217s - loss: 0.1441 - coeff_determination: 0.8567 - val_loss: 0.6886 - val_coeff_determination: 0.4183
+Epoch 30/40
+
+Epoch 00030: val_coeff_determination did not improve from 0.73678
+23454/23454 - 213s - loss: 0.1437 - coeff_determination: 0.8571 - val_loss: 0.6849 - val_coeff_determination: 0.4215
+Epoch 31/40
+
+Epoch 00031: val_coeff_determination did not improve from 0.73678
+23454/23454 - 213s - loss: 0.1432 - coeff_determination: 0.8576 - val_loss: 0.6685 - val_coeff_determination: 0.4352
+Epoch 32/40
+
+Epoch 00032: val_coeff_determination did not improve from 0.73678
+23454/23454 - 214s - loss: 0.1427 - coeff_determination: 0.8580 - val_loss: 0.6764 - val_coeff_determination: 0.4288
+Epoch 33/40
+
+Epoch 00033: val_coeff_determination did not improve from 0.73678
+23454/23454 - 225s - loss: 0.1423 - coeff_determination: 0.8584 - val_loss: 0.6852 - val_coeff_determination: 0.4214
+Epoch 34/40
+
+Epoch 00034: val_coeff_determination did not improve from 0.73678
+23454/23454 - 223s - loss: 0.1420 - coeff_determination: 0.8588 - val_loss: 0.6851 - val_coeff_determination: 0.4212
+Epoch 35/40
+
+Epoch 00035: val_coeff_determination did not improve from 0.73678
+23454/23454 - 224s - loss: 0.1415 - coeff_determination: 0.8593 - val_loss: 0.6645 - val_coeff_determination: 0.4386
+Epoch 36/40
+
+Epoch 00036: val_coeff_determination did not improve from 0.73678
+23454/23454 - 229s - loss: 0.1411 - coeff_determination: 0.8597 - val_loss: 0.6751 - val_coeff_determination: 0.4297
+Epoch 37/40
+
+Epoch 00037: val_coeff_determination did not improve from 0.73678
+23454/23454 - 223s - loss: 0.1408 - coeff_determination: 0.8600 - val_loss: 0.6696 - val_coeff_determination: 0.4344
+Epoch 38/40
+
+Epoch 00038: val_coeff_determination did not improve from 0.73678
+23454/23454 - 231s - loss: 0.1404 - coeff_determination: 0.8604 - val_loss: 0.6779 - val_coeff_determination: 0.4272
+Epoch 39/40
+
+Epoch 00039: val_coeff_determination did not improve from 0.73678
+23454/23454 - 224s - loss: 0.1401 - coeff_determination: 0.8607 - val_loss: 0.6803 - val_coeff_determination: 0.4253
+Epoch 40/40
+
+Epoch 00040: val_coeff_determination did not improve from 0.73678
+23454/23454 - 225s - loss: 0.1397 - coeff_determination: 0.8611 - val_loss: 0.6599 - val_coeff_determination: 0.4424
+[2K
+[2K
+Model: "sequential_3"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lambda_2 (Lambda)            (None, 1, 23)             0         
+_________________________________________________________________
+dense_4 (Dense)              (None, 1, 1024)           24576     
+_________________________________________________________________
+dense_5 (Dense)              (None, 1, 512)            524800    
+_________________________________________________________________
+dense_6 (Dense)              (None, 1, 3312)           1699056   
+_________________________________________________________________
+reshape_2 (Reshape)          (None, 144, 23)           0         
+=================================================================
+Total params: 2,248,432
+Trainable params: 2,248,432
+Non-trainable params: 0
+_________________________________________________________________
+None
+Epoch 1/40
+
+Epoch 00001: val_coeff_determination improved from -inf to 0.80106, saving model to CNN1_weights_best.hdf5
+23454/23454 - 213s - loss: 0.2228 - coeff_determination: 0.7776 - val_loss: 0.2361 - val_coeff_determination: 0.8011
+Epoch 2/40
+
+Epoch 00002: val_coeff_determination did not improve from 0.80106
+23454/23454 - 212s - loss: 0.2136 - coeff_determination: 0.7868 - val_loss: 0.2404 - val_coeff_determination: 0.7974
+Epoch 3/40
+
+Epoch 00003: val_coeff_determination did not improve from 0.80106
+23454/23454 - 207s - loss: 0.2111 - coeff_determination: 0.7893 - val_loss: 0.2445 - val_coeff_determination: 0.7940
+Epoch 4/40
+
+Epoch 00004: val_coeff_determination did not improve from 0.80106
+23454/23454 - 198s - loss: 0.2097 - coeff_determination: 0.7907 - val_loss: 0.2486 - val_coeff_determination: 0.7904
+Epoch 5/40
+
+Epoch 00005: val_coeff_determination did not improve from 0.80106
+23454/23454 - 199s - loss: 0.2088 - coeff_determination: 0.7916 - val_loss: 0.2480 - val_coeff_determination: 0.7909
+Epoch 6/40
+
+Epoch 00006: val_coeff_determination did not improve from 0.80106
+23454/23454 - 201s - loss: 0.2082 - coeff_determination: 0.7922 - val_loss: 0.2546 - val_coeff_determination: 0.7854
+Epoch 7/40
+
+Epoch 00007: val_coeff_determination did not improve from 0.80106
+23454/23454 - 198s - loss: 0.2076 - coeff_determination: 0.7929 - val_loss: 0.2485 - val_coeff_determination: 0.7905
+Epoch 8/40
+
+Epoch 00008: val_coeff_determination did not improve from 0.80106
+23454/23454 - 194s - loss: 0.2071 - coeff_determination: 0.7933 - val_loss: 0.2515 - val_coeff_determination: 0.7879
+Epoch 9/40
+
+Epoch 00009: val_coeff_determination did not improve from 0.80106
+23454/23454 - 194s - loss: 0.2068 - coeff_determination: 0.7936 - val_loss: 0.2612 - val_coeff_determination: 0.7796
+Epoch 10/40
+
+Epoch 00010: val_coeff_determination did not improve from 0.80106
+23454/23454 - 195s - loss: 0.2064 - coeff_determination: 0.7940 - val_loss: 0.2607 - val_coeff_determination: 0.7802
+Epoch 11/40
+
+Epoch 00011: val_coeff_determination did not improve from 0.80106
+23454/23454 - 194s - loss: 0.2061 - coeff_determination: 0.7943 - val_loss: 0.2709 - val_coeff_determination: 0.7715
+Epoch 12/40
+
+Epoch 00012: val_coeff_determination did not improve from 0.80106
+23454/23454 - 195s - loss: 0.2059 - coeff_determination: 0.7946 - val_loss: 0.2616 - val_coeff_determination: 0.7795
+Epoch 13/40
+
+Epoch 00013: val_coeff_determination did not improve from 0.80106
+23454/23454 - 195s - loss: 0.2056 - coeff_determination: 0.7948 - val_loss: 0.2596 - val_coeff_determination: 0.7811
+Epoch 14/40
+
+Epoch 00014: val_coeff_determination did not improve from 0.80106
+23454/23454 - 195s - loss: 0.2054 - coeff_determination: 0.7950 - val_loss: 0.2677 - val_coeff_determination: 0.7743
+Epoch 15/40
+
+Epoch 00015: val_coeff_determination did not improve from 0.80106
+23454/23454 - 195s - loss: 0.2051 - coeff_determination: 0.7953 - val_loss: 0.2707 - val_coeff_determination: 0.7718
+Epoch 16/40
+
+Epoch 00016: val_coeff_determination did not improve from 0.80106
+23454/23454 - 205s - loss: 0.2050 - coeff_determination: 0.7955 - val_loss: 0.2641 - val_coeff_determination: 0.7773
+Epoch 17/40
+
+Epoch 00017: val_coeff_determination did not improve from 0.80106
+23454/23454 - 211s - loss: 0.2048 - coeff_determination: 0.7957 - val_loss: 0.2748 - val_coeff_determination: 0.7683
+Epoch 18/40
+
+Epoch 00018: val_coeff_determination did not improve from 0.80106
+23454/23454 - 203s - loss: 0.2046 - coeff_determination: 0.7958 - val_loss: 0.2823 - val_coeff_determination: 0.7619
+Epoch 19/40
+
+Epoch 00019: val_coeff_determination did not improve from 0.80106
+23454/23454 - 203s - loss: 0.2044 - coeff_determination: 0.7960 - val_loss: 0.2783 - val_coeff_determination: 0.7653
+Epoch 20/40
+
+Epoch 00020: val_coeff_determination did not improve from 0.80106
+23454/23454 - 203s - loss: 0.2043 - coeff_determination: 0.7961 - val_loss: 0.2931 - val_coeff_determination: 0.7529
+Epoch 21/40
+
+Epoch 00021: val_coeff_determination did not improve from 0.80106
+23454/23454 - 209s - loss: 0.2042 - coeff_determination: 0.7962 - val_loss: 0.2824 - val_coeff_determination: 0.7619
